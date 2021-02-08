@@ -1,0 +1,11 @@
+Main Concept:
+1. Abstration class
+2. Interface
+
+Abstration class
+1. An Abstration class must be declared with an abstract kwyword
+2. It can have abstract and non abstract methods
+3. It cannot be instantiated
+
+Abstracy method :
+Method woithout implemention
