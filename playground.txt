@@ -10,3 +10,17 @@ testCompile group: 'org.testng', name: 'testng', version: '6.14.3'
 
  compile group: 'org.testng', name: 'testng', version: '6.14.3'
 
+public class Parent {
+    public void display(String Name){
+        System.out.println(Name+"  "+"I am parent Class method");
+    }
+}
+
+package test_scripts.polymorphism.methodoverride;
+
+public class Child extends Parent {
+
+    public void display(String Name){
+        System.out.println(Name+"  "+"I am childClass method");
+    }
+}
